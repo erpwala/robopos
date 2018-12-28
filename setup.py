@@ -13,11 +13,11 @@ with open('erpnext/__init__.py', 'rb') as f:
 		f.read().decode('utf-8')).group(1)))
 
 setup(
-	name='erpnext',
+	name='Robopos',
 	version=version,
-	description='Open Source ERP',
-	author='Frappe Technologies',
-	author_email='info@erpnext.com',
+	description='Open Source Robopos',
+	author='netmanthan',
+	author_email='connect@netmanthan.com',
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,
